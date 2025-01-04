@@ -1,0 +1,75 @@
+/* Center the form container and add padding */
+.form-container {
+    max-width: 700px;
+    margin: 10px auto;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .form-title {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .form-description {
+    font-size: 18px;
+    margin-bottom: 40px;
+    color: #5a5a5a;
+  }
+  
+  /* Styling for form labels */
+  .form-label {
+    display: block;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+  
+  .optional {
+    font-size: 14px;
+    color: #aaa;
+  }
+  
+  /* Custom input styles */
+  .custom-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f7f7f7;
+    margin-bottom: 30px;
+  }
+  
+  /* Custom select styles */
+  .custom-select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f7f7f7;
+    margin-bottom: 40px;
+  }
+  
+  /* Button styles */
+  .btn-submit {
+    background-color: #000;
+    color: white;
+    padding: 12px 30px;
+    font-size: 18px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .btn-submit:hover {
+    background-color: #333;
+  }
+  
+  /* General spacing for form group */
+  .form-group {
+    margin-bottom: 20px;
+  }

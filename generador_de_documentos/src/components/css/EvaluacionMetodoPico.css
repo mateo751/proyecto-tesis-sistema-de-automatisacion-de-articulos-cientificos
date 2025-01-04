@@ -1,0 +1,54 @@
+.tema-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .title {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .subtitle {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .description {
+    font-size: 16px;
+    margin: 20px 0;
+    text-align: justify;
+  }
+  
+  .tema-options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .tema-btn {
+    background-color: white;
+    border: 2px solid #ccc;
+    padding: 10px;
+    text-align: left;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .tema-btn:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .btn-proximo {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
