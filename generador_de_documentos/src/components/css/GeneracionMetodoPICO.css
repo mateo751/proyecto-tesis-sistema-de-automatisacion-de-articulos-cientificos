@@ -1,0 +1,155 @@
+/* Estilos generales del contenedor */
+.form-container {
+  max-width: 700px;
+  margin: 20px auto;
+  text-align: center;
+  padding: 10px;
+}
+
+.form-title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.form-description {
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: #5a5a5a;
+}
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.card {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #666;
+}
+
+.btn-submit {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-submit:hover {
+  background-color: #0056b3;
+}
+
+/* Estilos para los labels */
+.form-label {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #444;
+}
+
+/* Inputs y textarea */
+.form-control {
+  border-radius: 8px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.form-control:focus {
+  border-color: #000;
+  box-shadow: none;
+}
+
+/* Mensaje centrado */
+.text-center {
+  text-align: center;
+}
+
+/* Mensaje de éxito o error */
+.mt-3 {
+  margin-top: 20px;
+  font-size: 1rem;
+  color: green; /* Ajusta el color dependiendo si es mensaje de éxito o error */
+}
+
+/* Estilos para la respuesta PICO */
+.pico-response-container {
+  margin-top: 20px;
+}
+
+.pico-response-container h3 {
+  font-size: 1.75rem;
+  color: #222;
+  margin-bottom: 20px;
+}
+
+.card {
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  transition: transform 0.3s ease;
+  margin-bottom: 20px;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+.card-title {
+  font-weight: bold;
+  color: #333;
+}
+
+.card-text {
+  color: #666;
+}
+
+/* Estilo de filas y columnas para las respuestas */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-md-6 {
+  flex: 0 0 50%;
+  padding: 10px;
+}
+
+/* Mensaje al enviar formulario */
+.mt-4 {
+  margin-top: 20px;
+}
+
+/* Estilo para sección de respuesta */
+.response-section h5 {
+  margin-top: 15px;
+  font-weight: bold;
+  color: #444;
+}

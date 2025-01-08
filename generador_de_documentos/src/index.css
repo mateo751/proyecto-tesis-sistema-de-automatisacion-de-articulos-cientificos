@@ -1,0 +1,21 @@
+/* Estilos para el sidebar */
+.sidebar {
+  height: 100vh;
+  padding-top: 20px;
+}
+
+.sidebar .nav-link {
+  padding: 10px;
+  font-weight: bold;
+}
+
+.sidebar .nav-link.active {
+  background-color: #f0f0f0;
+  color: #000;
+}
+
+/* Estilos para el título del sidebar */
+.sidebar h4 {
+  font-weight: bold;
+  padding-bottom: 20px;
+}

@@ -1,0 +1,169 @@
+/* Contenedor principal de la vista de Mis Fuentes */
+.fuentes-container {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nuevo-doc-btn {
+  border-radius: 25px;
+  padding: 10px 20px;
+}
+
+/* Tabla de Mis Fuentes */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.table th, .table td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  color: #555;
+}
+
+.table th {
+  font-weight: bold;
+}
+
+.no-data {
+  text-align: center;
+  color: #aaa;
+}
+
+/* Pie de tabla (botón y paginación) */
+.table-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* Paginación */
+.pagination-controls {
+  display: flex;
+  align-items: center;
+}
+
+.rows-per-page {
+  margin: 0 10px;
+  padding: 5px;
+}
+
+.pagination-btn {
+  padding: 0 10px;
+  font-size: 1.2rem;
+  color: #aaa;
+}
+
+.pagination-btn.disabled {
+  cursor: not-allowed;
+}
+
+/* Botón para generar documento */
+.generar-btn {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.generar-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Estilos del modal */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  width: 100%;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.modal-content h2 {
+  margin-bottom: 20px;
+}
+
+.modal-content form div {
+  margin-bottom: 10px;
+}
+
+.modal-content form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.modal-content form input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.modal-content form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.modal-content form button:hover {
+  background-color: #0056b3;
+}
+
+/* Botón primario (por ejemplo, para el modal y otras acciones) */
+.btn-primary {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
